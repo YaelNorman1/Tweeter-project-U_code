@@ -9,4 +9,7 @@ Tech stack -
 TODO -
   - open to other people
   - connect to DB
+
+![image](https://user-images.githubusercontent.com/110329847/187043903-05a3ecdf-e974-4377-a1a2-959d91754fed.png)
+
   
