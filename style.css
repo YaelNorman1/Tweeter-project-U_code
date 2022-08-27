@@ -25,7 +25,6 @@ body{
     font-family: 'Balthazar', serif;
 }
 
-
 #posts{
     grid-area: p;
 }
@@ -33,7 +32,8 @@ body{
 #post{
     grid-area: b;
     padding: 10px;
-    /* background-color: #3498db; */
+    color: #3498db;
+    background-image: "https://www.clipartmax.com/png/small/166-1661038_follow-us-twitter-logo-for-html.png" alt="Follow Us - Twitter Logo For Html @clipartmax.com";
     border-radius: 10px;
     border: 1px solid #2980b9;
     box-shadow: 1px 1px 5px #2c3e50;
@@ -49,6 +49,7 @@ body{
     grid-area: b;
     padding: 10px;
     /* background-color: #3498db; */
+    color: #3498db;
     border-radius: 10px;
     border: 1px solid #2980b9;
     box-shadow: 1px 1px 5px #2c3e50;
@@ -59,7 +60,6 @@ body{
     margin: 10px;
     font-family: 'Balthazar', serif;
 }
-
 
 .input-comment{
     padding: 10px;

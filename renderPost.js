@@ -3,12 +3,10 @@ const RenderModule= function(){
     const renderPosts= function(posts) {
         $("#posts").empty();
 
-        //$("#posts").append("<div id='container'>");
-
         for (const post of posts) {
             console.log(post);
 
-            let postHeader= `<h2'>${post.text}</h2>`;//id='header
+            let postHeader= `<h2'>${post.text}</h2>`;
             let commentList= `<div class='comments'>`;
             let allComments= addComments(post.comments);
             let inputComment= `<input type='text' class='input-comment' placeholder='Write a comment'>`;
@@ -23,12 +21,11 @@ const RenderModule= function(){
                                 + buttonComment 
                             + `</div>` 
                             + deleteBtn
-                        + `</div>`;                        //id='post'
+                        + `</div>`;                        
 
             $("#posts").append(newPost);
             
         }
-        //$("#posts").append("</div>");
     }
 
     const addComments= function (comments){

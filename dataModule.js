@@ -35,7 +35,6 @@ const ModuleData = function () {
 
     }
 
-    //maybe save the only post and not copy like i did (Oriya did it)
     const removePost = function (pid) {
         tempArr= _posts.filter(data => data.id != pid);
         _posts= tempArr;
@@ -76,6 +75,4 @@ const ModuleData = function () {
         addComment : addComment,
         removeComment :removeComment
     }
-
-
 }
