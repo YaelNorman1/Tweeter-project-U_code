@@ -10,6 +10,7 @@ TODO -
   - open to other people
   - connect to DB
 
-![image](https://user-images.githubusercontent.com/110329847/187043903-05a3ecdf-e974-4377-a1a2-959d91754fed.png)
+![image](https://user-images.githubusercontent.com/110329847/187044048-3c9d0760-38a8-450d-bf03-4697beff839e.png)
+
 
   
